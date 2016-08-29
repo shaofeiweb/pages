@@ -1,37 +1,1155 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>shaofei.github.com by shaofeiweb</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">shaofei.github.com</h1>
-      <h2 class="project-tagline">shaofei.github.com</h2>
-      <a href="https://github.com/shaofeiweb/pages" class="btn">View on GitHub</a>
-      <a href="https://github.com/shaofeiweb/pages/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/shaofeiweb/pages/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shouye.css"/>
+		<link rel="stylesheet" type="text/css" href="css/commonheader.css"/>
+		<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+		<!--<script type="text/javascript" src="js/common.js"></script>	-->
+		<script type="text/javascript" src="js/shouye.js"></script>
+	<!--	<script src="js/lazy.js" type="text/javascript" charset="utf-8"></script>-->
+		<style type="text/css">
+			.ppp{width: 90px;background: #EDEDED;margin-left: -20px;display: none;}
+			.ppp p{padding: 5px 15px;}
+			.t{padding-top: 20px;}
+			.ad{height: 69px;}
+			#list{position: absolute;top: 34px;width: 100%;z-index: 100;}
+			#list li{width: 485px;height: 30px;background: white;line-height: 30px;}
+			#list li a{display: block;width: 100%;height: 100%;}
+			
+			
+			
+			
+		</style>
+	</head>
+	<body>
+<!--通用部分开始-->		
+		<div class="navTop poster">
+			<div class="left navTop_l">
+				<div class="navTop_l_t">
+					<img src="img/navTop_t.jpg"/>
+				</div>
+				<div class="navTop_l_b">
+					<!--全部奢品 <a> &Alpha;</a>-->
+					全部奢品 <img src="img/arrow_20.601307189542px_1199162_easyicon.net.png" style="display: inline-block;vertical-align: middle;" id="arrow"> 
+					<ul id="submenu">
+					<li>
+						<p>包袋</p>
+						<span>手提包</span><span>单肩包</span><span>钱包</span>
+						<div style="position: absolute;top: 0;left: 180px;display: none;">1</div>
+					</li>
+					<li>
+						<p>腕表</p>
+						<span>劳力士</span><span>欧米茄</span><span>浪琴</span>
+						<div style="position: absolute;top: 0;left: 180px;display: none;">2</div>
+					</li>
+					<li>
+						<p>首饰</p>
+						<span>卡地亚</span><span>宝格丽</span><span>香奈儿</span>
+						<div style="position: absolute;top: 0;left: 180px;display: none;">3</div>
+					</li>
+					<li>
+						<p>服装鞋靴</p>
+						<span>男外套</span><span>男针织衫</span><span>休闲鞋</span>
+						<div style="position: absolute;top: -40px;left: 180px;display: none;">4</div>
+					</li>
+					<li>
+						<p>配饰</p>
+						<span>围巾</span><span>腰带</span><span>眼镜</span><span>丝巾</span>
+						<div style="position: absolute;top: -104px;left: 180px;display: none;">5</div>
+					</li>
+					<li>
+						<p>家居生活</p>
+						<span>烟具</span><span>保温杯</span><span>家纺</span><span>茶道</span>
+						<div style="position: absolute;top: -168px;left: 180px;display: none;">6</div>
+					</li>
+					<li>
+						<p>母婴美妆</p>
+						<span>美妆</span><span>玩具</span><span>男童装</span><span>香氛</span>
+						<div style="position: absolute;top: -232px;left: 180px;display: none">7</div>
+					</li>
+					<li>
+						<p>户外运动</p>
+						<span>冲锋衣裤</span><span>徒步鞋</span><span>背包</span>
+						<div style="position: absolute;top: -296px;left: 180px;display: none;">8</div>
+					</li>
+					<li>
+						<p>豪车频道</p>
+						<span>平行进口车</span><span>酷飞行</span><span>精品</span>
+						<div style="position: absolute;top: -361px;left: 180px;display: none;">9</div>
+					</li>
+				</ul>
+				</div>
+				
+			</div>
+			<div class="right navTop_r">
+				<div class="navTop_r_t" id="OnavTop_r_t">
+					<ul>
+						<li>欢迎光临寺库</li>
+						<li><a href="logoin.html">请登入</a></li>
+						<li><a href="register .html">注册</a></li>
+						<li>|</li>
+						<li><a href="myorder.html">我的订单</a></li>
+						<li id="shang"><a href="restMoney.html">我的寺库</a><img src="img/xia.png" style="display: inline;margin-bottom: 3px;" style="position: relative;"/>
+							<div class="ppp" style="position: absolute;">
+								<p><a href="###">客户服务</a></p>
+								<p><a href="###">客户服务</a></p>
+								<p><a href="###">客户服务</a></p>
+								<p><a href="###">客户服务</a></p>
+							</div>
+						</li>
+						<li><a href="###">客户服务</a></li>
+						<li><a href="###">媒体聚焦</a></li>
+						<li>|</li>
+						<li><a href="shopcar.html">购物车(0)</a></li>
+					</ul>
+				</div>
+<!--11111111111111111111111111111111-->				
+				<div class="navTop_r_b">
+					<div class="navTop_r_b_l left">
+						<div class="navTop_r_b_search" style="position: relative;">
+							<input type="text"  placeholder="砖石" class="left" id="search" style="outline: none;"/><span class="left">搜索</span>
+							<ul id="list" >
+										
+							</ul>
+						</div>
+						
+						
+						
+						
+						
+						
+						
+<!--11111111111111-->						
+						
+						<ul class="discount">
+							<li><a href="###">纪梵希新品5折起</a></li>
+							<li><a href="###">情侣对表4折起</a></li>
+							<li><a href="###">温暖新家3折起两件再八折</a></li>
+							<li><a href="###">秋季好气色8.9折起</a></li>
+							<li><a href="###">只能代步</a></li>
+						</ul>
+						<ul class="menu">
+							<li><a href="kushishang.html">首页</a></li>
+							<li style="position: relative;"><a href="haiwai.html">免税直邮</a><s style="position: absolute;top: -10px;right: -15px;"><img src="http://pic1.secoo.com/home/hot.gif"></s></li>
+							<li><a href="goods.html">闪购SALE</a></li>
+							<li><a href="sellandbuy.html">我卖我拍</a></li>
+							<li><a href="pinpaiqijiandian.html">品牌旗舰店</a></li>
+							<li><a href="###">精品中国</a></li>
+							<li><a href="###">男士</a></li>
+							<li><a href="###">女士</a></li>
+							<li><a href="###">裤时尚</a></li>
+							<li><a href="###">酷金融</a></li>
+						</ul>
+					</div>
+					<div class="navTop_r_b_r left">
+						<fieldset>
+						<legend>下载寺库APP</legend>	
+						<img src="img/erweima.jpg"/>
+						</fieldset>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+<!--通用部分结束-->
+<div class="right_tips">
+	<a href="###">楼层1</a>
+	<a href="###">楼层2</a>
+	<a href="###">楼层3</a>
+	<a href="###">楼层4</a>
+	<a href="###">楼层5</a>
+	<a href="###">楼层6</a>
+	<a href="###">楼层7</a>
+	<a href="###">楼层8</a>
+	<a href="###">楼层9</a>
+	<a href="###">楼层10</a>
+	<a href="###">楼层11</a>
+	<a href="###">楼层12</a>
+	<a href="###">楼层13</a>
+	<a href="###">楼层14</a>
+	<a href="###">楼层15</a>
+	
+	
+	
+	
+	
+	
+</div>
+<div class="banner poster">
+	<p>首页 > <span>男士奢侈品</span> </p>
+	<ul class="banner_l left">
+		<li>
+			<img src="img/banner—l.jpg" class="left"/>
+			<div class="banner_l_content " class="left">
+				<h3><b><a href="###">箱包</b></a></h3>
+				<table>
+					<tr>
+						<td><a href="###">公文包</a></td>
+						<td><a href="###">钱包</a></td>
+					</tr>
+					<tr>
+						<td><a href="###">腰包</a></td>
+						<td><a href="###">旅行包</a></td>
+					</tr>
+				</table>
+			</div>
+		</li>
+		<li>
+			<img src="img/banner—l.jpg" class="left"/>
+			<div class="banner_l_content " class="left">
+				<h3><b><a href="###">箱包</b></a></h3>
+				<table>
+					<tr>
+						<td><a href="###">公文包</a></td>
+						<td><a href="###">钱包</a></td>
+					</tr>
+					<tr>
+						<td><a href="###">腰包</a></td>
+						<td><a href="###">旅行包</a></td>
+					</tr>
+				</table>
+			</div>
+		</li>
+		<li>
+			<img src="img/banner—l.jpg" class="left"/>
+			<div class="banner_l_content " class="left">
+				<h3><b><a href="###">箱包</b></a></h3>
+				<table>
+					<tr>
+						<td><a href="###">公文包</a></td>
+						<td><a href="###">钱包</a></td>
+					</tr>
+					<tr>
+						<td><a href="###">腰包</a></td>
+						<td><a href="###">旅行包</a></td>
+					</tr>
+				</table>
+			</div>
+		</li>
+		<li>
+			<img src="img/banner—l.jpg" class="left"/>
+			<div class="banner_l_content " class="left">
+				<h3><b><a href="###">箱包</b></a></h3>
+				<table>
+					<tr>
+						<td><a href="###">公文包</a></td>
+						<td><a href="###">钱包</a></td>
+					</tr>
+					<tr>
+						<td><a href="###">腰包</a></td>
+						<td><a href="###">旅行包</a></td>
+					</tr>
+				</table>
+			</div>
+		</li>
+		<li>
+			<img src="img/banner—l.jpg" class="left"/>
+			<div class="banner_l_content " class="left">
+				<h3><b><a href="###">箱包</b></a></h3>
+				<table>
+					<tr>
+						<td><a href="###">公文包</a></td>
+						<td><a href="###">钱包</a></td>
+					</tr>
+					<tr>
+						<td><a href="###">腰包</a></td>
+						<td><a href="###">旅行包</a></td>
+					</tr>
+				</table>
+			</div>
+		</li>
+		
+	</ul>
+	<div class="banner_r left">
+		<div id="banner_show">
+			<img src="img/zzzz.jpg" />
+			<img src="img/banner—show.jpg" />
+			<ul>
+				<a href="###"><li class="banner_show_index"></li></a>
+				<li></li>
+			</ul>
+		</div>
+		<div id="banner_show_button">
+			<img src="img/banner_b1.jpg" class="left">
+			<a href="goods.html"><img src="img/banner_b2.jpg" class="left"></a>
+			<img src="img/banner_b3.jpg" class="left">
+		</div>
+	</div>
+</div>
+<!--直邮-->
+<div class="ad poster">
+	<p class="poster t">免税直邮GLOBAL</p>
+	
+</div>
 
-    <section class="main-content">
-      <h1>
-<a id="shaofeigithubio" class="anchor" href="#shaofeigithubio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>shaofei.github.io</h1>
+<img src="img/index_top_show.jpg" id="index_top_show">
 
-<p>今天星期一</p>
+<!--直邮结束-->
+<!--main1鞋子-->
+<div class="main1 poster">
+	<div class="main1_l left">
+		<div class="main1_l_t">
+			<img src="img/main_l_t1.jpg" class="left"/>
+			<img src="img/main_l_t2.jpg" class="left"/>
+		</div>
+		<div class="main1_l_b">
+			<dl class="left">
+				<dt><a><img src="img/main_l_b1.jpg" class="showOpacity"/></a>
+					
+				</dt>
+				<dd>
+					<p><b>日本</b></p>
+					<p><a href="###">LEADERS/丽得姿 蜗牛祛痘补水修复木炭面膜（10片</a></p>
+					<p>￥95</p>
+					<img src="img/controy.jpg" />
+				</dd>
+			</dl>
+			<dl class="left">
+				<dt><a><img src="img/main_l_b1.jpg" class="showOpacity"/></a>
+					
+				</dt>
+				<dd>
+					<p><b>日本</b></p>
+					<p><a href="###">LEADERS/丽得姿 蜗牛祛痘补水修复木炭面膜（10片</a></p>
+					<p>￥95</p>
+					<img src="img/controy.jpg" />
+				</dd>
+			</dl>
+			<dl class="left">
+				<dt><a><img src="img/main_l_b1.jpg" class="showOpacity"/></a>
+					
+				</dt>
+				<dd>
+					<p><b>日本</b></p>
+					<p><a href="###">LEADERS/丽得姿 蜗牛祛痘补水修复木炭面膜（10片</a></p>
+					<p>￥95</p>
+					<img src="img/controy.jpg" />
+				</dd>
+			</dl>
+			<dl class="left">
+				<dt><a><img src="img/main_l_b2.jpg" class="showOpacity"/></a>
+					
+				</dt>
+				<dd>
+					<p><b>日本</b></p>
+					<p><a href="###">LEADERS/丽得姿 蜗牛祛痘补水修复木炭面膜（10片</a></p>
+					<p>￥95</p>
+					<img src="img/controy.jpg" />
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<div class="main1_r left">
+		<p class="right"><a href="###">更多海外品牌></a></p>
+		<div class="logobox">
+			<div class="logobox_inner">
+				<img src="http://pic14.secooimg.com/push/16/1/37386696f6d54ee79ce413730e87bd37.jpg" class="left"/>
+				<div class="left">2折起</div>
+			</div>
+			
+		</div>
+		<a href="###">Burberry专场</a>
+		
+		<div class="logobox">
+			<div class="logobox_inner">
+				<img src="http://pic11.secooimg.com/push/16/1/1d362697b97e4055af4f50fc5edcdb4f.jpg" class="left"/>
+				<div class="left">2折起</div>
+			</div>
+			
+		</div>
+		<a href="###">Burberry专场</a>
+		
+		<div class="logobox">
+			<div class="logobox_inner">
+				<img src="http://pic12.secooimg.com/push/16/1/81583c238e684bf3afde26e6d7153034.jpg" class="left"/>
+				<div class="left">2折起</div>
+			</div>
+			
+		</div>
+		<a href="###">Burberry专场</a>
+		
+		<div class="logobox">
+			<div class="logobox_inner">
+				<img src="http://pic14.secooimg.com/push/16/1/37386696f6d54ee79ce413730e87bd37.jpg" class="left"/>
+				<div class="left">2折起</div>
+			</div>
+			
+		</div>
+		<a href="###">Burberry专场</a>
+		
+		<div class="logobox">
+			<div class="logobox_inner">
+				<img src="http://pic14.secooimg.com/push/16/1/37386696f6d54ee79ce413730e87bd37.jpg" class="left"/>
+				<div class="left">2折起</div>
+			</div>
+			
+		</div>
+		<a href="###">Burberry专场</a>
+	</div>
+</div>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/shaofeiweb/pages">shaofei.github.com</a> is maintained by <a href="https://github.com/shaofeiweb">shaofeiweb</a>.</span>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
 
-    </section>
+<!--main1鞋子结束-->
+<!--闪购开始-->
+<div class="ad poster">
+	<p class="poster t">闪购SALE</p>
+	
+	<div class="right" style="font-size: 13px;">
+		<a href="###">更多闪购品种></a>
+	</div>
+</div>
 
-  
-  </body>
+<div class="main1 poster main2">
+	<div class="main2_t">
+		<div class="timeCount">
+		
+		</div>
+		<div class="main2_t_l left" >
+			<a href="###" ><img src="img/main2_l_t1.jpg" class="showOpacity"/></a>
+		</div>
+		<div class="main2_t_c left">
+			<a href="###"><img src="img/main2_c_1.jpg" class="showOpacity"></a>
+			<a href="###"><img src="img/main2_c_2.jpg" class="showOpacity"></a>
+		</div>
+		<div class="main2_t_b right">
+			<dl>
+				<dt><a href="###"><img src="img/main2_r_2.jpg"></a></dt>
+				<dd>
+					<p><a href="###">MCM女士侧铆钉双肩包</a></p>
+					<p><b>￥3084</b><span class="red">【3.9折】</span></p>
+					<p><img src="img/timeclock.jpg" class="left"><span class="left"></span></p>
+				</dd>
+			</dl>
+			
+			<dl>
+				<dt><a href="###"><img src="img/main2_r_3.jpg"></a></dt>
+				<dd>
+					<p><a href="###">MCM女士侧铆钉双肩包</a></p>
+					<p><b>￥3084</b><span class="red">【3.9折】</span></p>
+					<p><img src="img/timeclock.jpg" class="left"><span class="left"></span></p>
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<ul class="main2_b">
+		<li>
+			<div class="logobox">
+			<div class="logobox_inner">
+				<img src="http://pic12.secooimg.com/push/16/1/81583c238e684bf3afde26e6d7153034.jpg" class="left"/>
+				<div class="left">2折起</div>
+			</div>
+			
+		</div>
+		<p><a href="###">Burberry专场</a></p>
+		</li>
+		<li>
+			<div class="logobox">
+			<div class="logobox_inner">
+				<img src="http://pic12.secooimg.com/push/16/1/81583c238e684bf3afde26e6d7153034.jpg" class="left"/>
+				<div class="left">2折起</div>
+			</div>
+			
+		</div>
+		<p><a href="###">Burberry专场</a></p>
+		</li>
+		<li>
+			<div class="logobox">
+			<div class="logobox_inner">
+				<img src="http://pic12.secooimg.com/push/16/1/81583c238e684bf3afde26e6d7153034.jpg" class="left"/>
+				<div class="left">2折起</div>
+			</div>
+			
+		</div>
+		<p><a href="###">Burberry专场</a></p>
+		</li>
+		<li>
+			<div class="logobox">
+			<div class="logobox_inner">
+				<img src="http://pic12.secooimg.com/push/16/1/81583c238e684bf3afde26e6d7153034.jpg" class="left"/>
+				<div class="left">2折起</div>
+			</div>
+			
+		</div>
+		<p><a href="###">Burberry专场</a></p>
+		</li>
+		<li>
+			<div class="logobox">
+			<div class="logobox_inner">
+				<img src="http://pic12.secooimg.com/push/16/1/81583c238e684bf3afde26e6d7153034.jpg" class="left"/>
+				<div class="left">2折起</div>
+			</div>
+			
+		</div>
+		<p><a href="###">Burberry专场</a></p>
+		</li>
+		<li>
+			<div class="logobox">
+			<div class="logobox_inner">
+				<img src="http://pic12.secooimg.com/push/16/1/81583c238e684bf3afde26e6d7153034.jpg" class="left"/>
+				<div class="left">2折起</div>
+			</div>
+			
+		</div>
+		<p><a href="###">Burberry专场</a></p>
+		</li>
+		
+		
+		
+	</ul>
+	
+	
+</div>
+<!--闪购结束-->
+
+<!--我卖我拍开始-->
+<div class="ad poster">
+	<p class="poster t">我卖我拍AUCTIONS</p>
+	<!--<div class="poster">累计排卖：34092单</div>-->
+	
+</div>
+<div class=" poster main3">
+	<div class="left showOpacity" >
+		<a href="###"><img src="img/main3.jpg" /></a>
+	</div>
+	<div class="right">
+		<h4>拍卖活动预告</h4>
+		<ul>
+			<li><a href="###">1月11日 卡地亚桑托斯系列男式腕表</a></li>
+			<li><a href="###">1月11日 卡地亚桑托斯系列男式腕表</a></li>
+			<li><a href="###">1月11日 卡地亚桑托斯系列男式腕表</a></li>
+			<li><a href="###">1月11日 卡地亚桑托斯系列男式腕表</a></li>
+			<li><a href="###">1月11日 卡地亚桑托斯系列男式腕表</a></li>
+			<li><a href="###">1月11日 卡地亚桑托斯系列男式腕表</a></li>
+			<li><a href="###">1月11日 卡地亚桑托斯系列男式腕表</a></li>
+		</ul>
+		<div class="main3_img">
+			<div><a href="###"><img src="img/main3_img.jpg"></a></div>
+			<h4><a href="###">查看更多拍卖商品</a></h4>
+			<span>本周一共有2739和商品</span>
+		</div>
+		
+	</div>
+</div>
+
+<!--我卖我拍结束-->
+
+<!--商城MALL开始-->
+<div class="ad poster">
+	<p class="poster t">我卖我拍AUCTIONS</p>
+	<!--<div class="poster">累计排卖：34092单</div>-->
+	
+</div>
+
+<div class="mall poster">
+	<div class="content">
+		<ul class="left">
+			<a href="###"><li><b>包袋</b></li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			
+		</ul>
+		<span class="right"><a href="###">更多包袋></a></span>
+	</div>
+	<div class="content_bottom">
+		<a href="###" "><img src="img/mallbig.jpg" class="left showOpacity"/></a>
+		<div class="content_bottom_c left">
+			<a href="###" class="showOpacity left"><img src="img/content_img1.jpg" class=" showOpacity"/></a>
+		</div>
+		<ul class="content_bottom_r right">
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+		</ul>
+	</div>
+</div>
+
+
+<!--商城MALL结束-->
+
+<!--腕表开始-->
+<div class="mall poster">
+	<div class="content">
+		<ul class="left">
+			<a href="###"><li><b>腕表</b></li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			
+		</ul>
+		<span class="right"><a href="###">更多包袋></a></span>
+	</div>
+	<div class="content_bottom">
+		<a href="###" "><img src="img/mallbig.jpg" class="left showOpacity"/></a>
+		<div class="content_bottom_c left">
+			<a href="###" class="showOpacity left"><img src="img/content_img1.jpg" class=" showOpacity"/></a>
+		</div>
+		<ul class="content_bottom_r right">
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+		</ul>
+	</div>
+</div>
+<!--腕表结束-->
+
+
+<!--服装开始-->
+<div class="mall poster">
+	<div class="content">
+		<ul class="left">
+			<a href="###"><li><b>服装</b></li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			
+		</ul>
+		<span class="right"><a href="###">更多包袋></a></span>
+	</div>
+	<div class="content_bottom">
+		<a href="###" "><img src="img/mallbig.jpg" class="left showOpacity"/></a>
+		<div class="content_bottom_c left">
+			<a href="###" class="showOpacity left"><img src="img/content_img1.jpg" class=" showOpacity"/></a>
+		</div>
+		<ul class="content_bottom_r right">
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+		</ul>
+	</div>
+</div>
+<!--服装结束-->
+
+
+<!--鞋靴开始-->
+<div class="mall poster">
+	<div class="content">
+		<ul class="left">
+			<a href="###"><li><b>鞋靴</b></li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			
+		</ul>
+		<span class="right"><a href="###">更多包袋></a></span>
+	</div>
+	<div class="content_bottom">
+		<a href="###" "><img src="img/mallbig.jpg" class="left showOpacity"/></a>
+		<div class="content_bottom_c left">
+			<a href="###" class="showOpacity left"><img src="img/content_img1.jpg" class=" showOpacity"/></a>
+		</div>
+		<ul class="content_bottom_r right">
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+		</ul>
+	</div>
+</div>
+<!--鞋靴结束-->
+
+<!--配饰开始-->
+<div class="mall poster">
+	<div class="content">
+		<ul class="left">
+			<a href="###"><li><b>配饰</b></li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			
+		</ul>
+		<span class="right"><a href="###">更多包袋></a></span>
+	</div>
+	<div class="content_bottom">
+		<a href="###" "><img src="img/mallbig.jpg" class="left showOpacity"/></a>
+		<div class="content_bottom_c left">
+			<a href="###" class="showOpacity left"><img src="img/content_img1.jpg" class=" showOpacity"/></a>
+		</div>
+		<ul class="content_bottom_r right">
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+		</ul>
+	</div>
+</div>
+<!--配饰结束-->
+
+<!--首饰开始-->
+<div class="mall poster">
+	<div class="content">
+		<ul class="left">
+			<a href="###"><li><b>首饰</b></li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			
+		</ul>
+		<span class="right"><a href="###">更多包袋></a></span>
+	</div>
+	<div class="content_bottom">
+		<a href="###" "><img src="img/mallbig.jpg" class="left showOpacity"/></a>
+		<div class="content_bottom_c left">
+			<a href="###" class="showOpacity left"><img src="img/content_img1.jpg" class=" showOpacity"/></a>
+		</div>
+		<ul class="content_bottom_r right">
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+		</ul>
+	</div>
+</div>
+<!--首饰结束-->
+
+<!--家居生活开始-->
+<div class="mall poster">
+	<div class="content">
+		<ul class="left">
+			<a href="###"><li><b>家具生活</b></li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			
+		</ul>
+		<span class="right"><a href="###">更多包袋></a></span>
+	</div>
+	<div class="content_bottom">
+		<a href="###" "><img src="img/mallbig.jpg" class="left showOpacity"/></a>
+		<div class="content_bottom_c left">
+			<a href="###" class="showOpacity left"><img src="img/content_img1.jpg" class=" showOpacity"/></a>
+		</div>
+		<ul class="content_bottom_r right">
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+		</ul>
+	</div>
+</div>
+<!--家居生活结束-->
+
+<!--户外运动开始-->
+<div class="mall poster">
+	<div class="content">
+		<ul class="left">
+			<a href="###"><li><b>户外运动</b></li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			
+		</ul>
+		<span class="right"><a href="###">更多包袋></a></span>
+	</div>
+	<div class="content_bottom">
+		<a href="###" "><img src="img/mallbig.jpg" class="left showOpacity"/></a>
+		<div class="content_bottom_c left">
+			<a href="###" class="showOpacity left"><img src="img/content_img1.jpg" class=" showOpacity"/></a>
+		</div>
+		<ul class="content_bottom_r right">
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+		</ul>
+	</div>
+</div>
+<!--户外运动结束-->
+
+<!--美妆成人开始-->
+<div class="mall poster">
+	<div class="content">
+		<ul class="left">
+			<a href="###"><li><b>美妆成人</b></li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			
+		</ul>
+		<span class="right"><a href="###">更多包袋></a></span>
+	</div>
+	<div class="content_bottom">
+		<a href="###" "><img src="img/mallbig.jpg" class="left showOpacity"/></a>
+		<div class="content_bottom_c left">
+			<a href="###" class="showOpacity left"><img src="img/content_img1.jpg" class=" showOpacity"/></a>
+		</div>
+		<ul class="content_bottom_r right">
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+		</ul>
+	</div>
+</div>
+<!--美妆成人结束-->
+
+
+<!--母婴玩具开始-->
+<div class="mall poster">
+	<div class="content">
+		<ul class="left">
+			<a href="###"><li><b>母婴玩具</b></li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			
+		</ul>
+		<span class="right"><a href="###">更多包袋></a></span>
+	</div>
+	<div class="content_bottom">
+		<a href="###" "><img src="img/mallbig.jpg" class="left showOpacity"/></a>
+		<div class="content_bottom_c left">
+			<a href="###" class="showOpacity left"><img src="img/content_img1.jpg" class=" showOpacity"/></a>
+		</div>
+		<ul class="content_bottom_r right">
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+		</ul>
+	</div>
+</div>
+<!--母婴玩具结束-->
+
+<!--中国精品开始-->
+<div class="mall poster">
+	<div class="content">
+		<ul class="left">
+			<a href="###"><li><b>中国精品</b></li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			
+		</ul>
+		<span class="right"><a href="###">更多包袋></a></span>
+	</div>
+	<div class="content_bottom">
+		<a href="###" "><img src="img/mallbig.jpg" class="left showOpacity"/></a>
+		<div class="content_bottom_c left">
+			<a href="###" class="showOpacity left"><img src="img/content_img1.jpg" class=" showOpacity"/></a>
+		</div>
+		<ul class="content_bottom_r right">
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+		</ul>
+	</div>
+</div>
+<!--中国精品结束-->
+
+<!--豪车开始-->
+<div class="mall poster">
+	<div class="content">
+		<ul class="left">
+			<a href="###"><li><b>豪车开始</b></li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			<a href="###"><li>HERMES</li></a>
+			
+		</ul>
+		<span class="right"><a href="###">更多包袋></a></span>
+	</div>
+	<div class="content_bottom">
+		<a href="###" "><img src="img/mallbig.jpg" class="left showOpacity"/></a>
+		<div class="content_bottom_c left">
+			<a href="###" class="showOpacity left"><img src="img/content_img1.jpg" class=" showOpacity"/></a>
+		</div>
+		<ul class="content_bottom_r right">
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+			<a  href="###"><li><img src="img/content_img3.jpg" class="showOpacity"/></li></a>
+		</ul>
+	</div>
+</div>
+<!--豪车结束-->
+<p class="guess poster"><span>猜你喜欢</span></p>
+<div class="banner_show1 poster">
+	<i ><</i>
+	<ul>
+		<li>
+			<dl>
+				<dt><a href="###"><img src="img/a6.jpg"></a></dt>
+				<dd>
+					<span>nathome/北欧欧慕破壁料理机NPB1801</span>
+					<p>￥599</p>
+				</dd>
+			</dl>
+		</li>
+		
+		<li>
+			<dl>
+				<dt><a href="###"><img src="img/a1.jpg"></a></dt>
+				<dd>
+					<span>nathome/北欧欧慕破壁料理机NPB1801</span>
+					<p>￥599</p>
+				</dd>
+			</dl>
+		</li>
+		<li>
+			<dl>
+				<dt><a href="###"><img src="img/a2.jpg"></a></dt>
+				<dd>
+					<span>nathome/北欧欧慕破壁料理机NPB1801</span>
+					<p>￥599</p>
+				</dd>
+			</dl>
+		</li>
+		<li>
+			<dl>
+				<dt><a href="###"><img src="img/a3.jpg"></a></dt>
+				<dd>
+					<span>nathome/北欧欧慕破壁料理机NPB1801</span>
+					<p>￥599</p>
+				</dd>
+			</dl>
+		</li>
+		<li>
+			<dl>
+				<dt><a href="###"><img src="img/a4.jpg"></a></dt>
+				<dd>
+					<span>nathome/北欧欧慕破壁料理机NPB1801</span>
+					<p>￥599</p>
+				</dd>
+			</dl>
+		</li>
+		<li>
+			<dl>
+				<dt><a href="###"><img src="img/a5.jpg"></a></dt>
+				<dd>
+					<span>nathome/北欧欧慕破壁料理机NPB1801</span>
+					<p>￥599</p>
+				</dd>
+			</dl>
+		</li>
+		
+	</ul>
+	
+	<i >></i>
+</div>
+<img src="img/answer.jpg" id="answer" style="z-index: 1000;"/>
+<img src="img/toTop.jpg" id="toTop"/>
+<!--服务指南开始-->
+<div class="guild poster">
+	<ul class="guild_u1">
+		<li><b>服务指南</b>
+			<ul>
+				<li>注册新用户</li>
+				<li>网上订购流程</li>
+				<li>优惠券使用说明</li>
+				<li>海外站购买说明</li>
+				<li>美国站购买说明</li>
+			</ul>
+		</li>
+		<li><b>付款方式</b>
+			<ul>
+				<li>在线支付</li>
+				<li>库支付</li>
+				<li>银行汇款</li>
+				<li>货到付款</li>
+			</ul>
+		</li>
+		<li><b>物流配送</b>
+			<ul>
+				<li>管家配送</li>
+				<li>快递配送</li>
+				<li>到店自提</li>
+				<li>配送范围及时间</li>
+				<li>配送政策</li>
+			</ul>
+		</li>
+		<li><b>售后服务</b>
+			<ul>
+				<li>退换货说明</li>
+				<li>如何办理退款</li>
+				<li>售后服务保养手册</li>
+				<li>奢侈品养护服务</li>
+				<li>奢侈品拍卖置换</li>
+			</ul>
+		</li>
+		<li class="guild_u1_last"><b>跨境体验店</b>
+			<p>寺库通过在全球多地设立体验店和办事机构的方式，为高端消费者提供贴心的全球奢侈品一站式服务</p>
+			<p><a href="###">北京</a><a href="###">香港</a></p>
+			<p><a href="###">上海</a><a href="###">米兰</a></p>
+			<p><a href="###">成都</a></p>
+		</li>
+	</ul>
+	
+</div>
+<!--服务指南结束-->
+<div class="foot">
+	
+</div>
+
+
+<div class="foot_aboat poster">
+	<p><span>寺库网</span><span>寺库金融</span><span>寺库奢侈品养护</span><span>寺库招商</span></p>
+	<p><span>营业执照注册号110102011888762</span><span>京公安备11010102001392</span><span>京ICP证110119号 京ICP备09084709号-3</span><span>ISO9001中国质量管理体系认证</span></p>
+	<p><span>加入寺库</span><span>联系我们</span><span>关于寺库</span><span>帮助中心</span><span>寺库微博</span><span>友情链接</span><span>奢侈品热词</span><span>奢侈品资讯</span></p>
+	<p>COPYRIGHT © 2010-2016 北京寺库商贸有限公司 版权所有</p>
+	<img src="img/foot_aboat.jpg"/>
+</div>
+<div class="foot_last poster">
+	<img src="img/foot2.jpg">
+		<img src="img/foot2.jpg">
+			<img src="img/foot2.jpg">
+				<img src="img/foot2.jpg">
+					<img src="img/foot2.jpg">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+	<script type="text/javascript">
+		$('#shang').mouseenter(function(){
+			
+			$(this).find('img').attr('src','img/shang.png')
+			$('.ppp').animate().slideDown()
+		})
+		$('#shang').mouseleave(function(){
+			$(this).find('img').attr('src','img/xia.png')
+			$('.ppp').animate().slideUp()
+		})
+		$('.navTop_l_b').mouseenter(function(){
+			
+			$('#arrow').attr('src','img/arrow_20.81045751634px_1199161_easyicon.net.png')
+		})
+		
+		$('.navTop_l_b').mouseleave(function(){
+			$('#arrow').attr('src','img/arrow_20.601307189542px_1199162_easyicon.net.png')
+		})
+		//
+		var oSearch=document.getElementById("search");
+		var oList=document.getElementById("list");
+		var oLi=oList.getElementsByTagName("li")
+		oSearch.onkeydown=function a(){
+			if(oSearch.value!=''){
+				oList.style.display='block';
+				var oScript=document.createElement('script');
+				oScript.src="http://www.baidu.com/su?wd="+oSearch.value+"&cb=shaofei ";
+				document.body.appendChild(oScript);
+				document.body.removeChild(oScript)
+			}
+			else{
+				oList.style.display='none';
+			}
+		}
+		
+		function shaofei(data){
+		
+			var html='';
+			for(var i=0;i<data.s.length;i++){
+
+				html += '<li id="li'+i+'"><a href="https://www.baidu.com/s?wd='+data.s[i]+'" target="_blank">'+data.s[i]+'</a></li>';
+			}
+			
+			
+			
+			
+			oList.style.display='block';
+			oList.innerHTML=html
+		}
+		var index=0
+		oSearch.onkeyup=function(ev){
+			var ev=ev ||event;
+			if(ev.keyCode==40){
+				index++;
+				if(index>oLi.length-1){
+					index=oLi.length-1
+				}
+			}
+			if(ev.keyCode==38){
+				index--;
+				if(index<0){
+					index=0
+				}
+			}
+			oLi[index].style.background='red';
+			
+		}
+	
+	</script>
 </html>
