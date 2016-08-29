@@ -1,0 +1,44 @@
+body{height: 4000px;}
+.pin_container{height: 490px;overflow: hidden;}
+.pin_container ul{height: 396px;width: 100%;margin-bottom:362px ;}
+.pin_container ul li{width: 236px;height: 396px;margin-right: 5px;float: left;position: relative;}
+.pin_container ul li:last-child{margin-right: 0;}
+.pin_container_img{position: absolute;bottom: 4px;right: 38px;height: 0;width: 160px;}
+
+.pin_container2{height: 488px;background: #ededed;overflow: hidden;width: 100%;}
+.pin_container3{height: 370px;background: white;margin-top: 53px;}
+.pin_container3_l{background: #463b7f;width:5px;height: 100%;}
+.pin_container3_c{width: 100px;height: 75px;margin-top: 137px;margin-left: 70px;}
+.pin_container3_c h3{text-align: center;}
+.pin_container3_c h4{text-align: center;}
+.pin_container3_r{width: 900px;height: 300px;margin-top: 40px;margin-right: 40px;}
+.pin_container3_r li{height: 138px;width: 138px;border: 1px solid #dfdfdf;margin-left: 10px;margin-bottom: 10px;float: left;position: relative;}
+.pin_container3_r li .c1{position: absolute;width: 1px;height: 1px;background: black;top: -1px;left: -1px;}
+.pin_container3_r li .c2{position: absolute;width: 1px;height: 1px;background: black;bottom: -1px;left: -1px;}
+.pin_container3_r li .c3{position: absolute;width: 1px;height: 1px;background: black;bottom: -1px;right: -1px;}
+.pin_container3_r li .c4{position: absolute;width: 1px;height: 1px;background: black;top: -1px;right: -1px;}
+.pin_container3_r li div{display: none;}
+.pin_container4{height: 430px;border-top: 4px solid black;z-index: 2;}
+.pin_container5{height: 430px;}
+.pin_container5_l{width: 100px;height: 343px;padding-top: 42px;float: left;}
+.pin_container5_l2{border-top: 3px solid black;width: 100px;height: 343px;color: black;}
+.pin_container5_l2 ul li{background: url(../img/pin12.jpg);width: 100px;height: 31px;color: #888888;border-bottom: 1px solid white;border-top:1px solid white ;}
+.pin_container5_l2 ul li span{margin-left: 32px;line-height: 40px;margin-right: 5px;}
+.pin_container5_l2 ul li b{display: none;}
+.pin_container5_r{width: 1000px;height: 170px;margin-left: 100px;float: left;}
+.pin_container5_r_b{height: 125px;width: 998px;border: 1px solid #888888;}
+.pin_container5_r_b ul{margin-top: 17px;margin-left: 47px;}
+.pin_container5_r_b ul li{width: 94px;height: 94px;margin-right: 40px;float: left;}
+.pin_container5_r_b ul li :hover{cursor: pointer}
+.pin_container5_r_b ul li img{width: 90px;height: 90px;margin-left: 2px;margin-top: 2px;}
+#aaa{margin-top: 3000px;}
+
+
+
+
+.returnTop{width: 58px;height: 58px;border-radius:29px;background: url(../img/submitorder1_returnTop.png) left bottom no-repeat ;position: fixed;bottom: 100px;right: 50px;}
+.returnTop:hover{background: url(../img/submitorder1_returnTop.png) right bottom no-repeat ;}
+
+
+
+

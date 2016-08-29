@@ -1,0 +1,76 @@
+.content_containner{width: 100%;background: #fdf8f4;height: 720px;padding-top: 58px;background: url(../img/rigist_bacpic.jpg);overflow: hidden;}
+.content_c{height: 778px;position: relative;}
+
+.re_column{position: absolute;width: 287px;height: 379px;right: 0px;top: 90px;background: white;padding: 33px 55px 30px 35px;box-shadow: 0 0 4px #999999;}
+.re_column p{height: 12px;font-size: 12px;color: #999999;}
+input{width: 100%;height: 48px;margin: 14px 0;display: block;padding-left: 6px;font-size: 12px;outline: none;border: 1px solid #999999;}
+.re_column h2{text-align: center;color: #f19108;}
+#remember {height: 14px;width: 14px;display: block;margin: 0;}
+.now_to_login{height: 50px;background: #f19108;color: white;font-size: 16px;line-height: 50px;text-align: center;border: none;font-weight: 700;cursor: pointer;width: 297px;}
+.re_column img{margin: 18px 0 38px 0;}
+
+
+
+#odiv {
+				position: absolute;
+				width:600px;
+				height: 400px;
+				margin: 0 auto;
+				border: 1px solid #444444;
+				z-index: 1000;
+				top: 240px;
+				left: 100px;
+			}
+			
+		#odiv	a {
+				text-align: center;
+				line-height: 60px;
+				text-decoration: none;
+				font-size: 25px;
+				display: block;
+				width: 50px;
+				height: 60px;
+				background: #abcdef
+			}
+			
+			#oleft {
+				position: absolute;
+				left: -50px;
+				top: 45%
+			}
+			
+			#oright {
+				position: absolute;
+				right: -50px;
+				top: 45%
+			}
+			
+			#olist {
+				position: absolute;
+				top: 0
+			}
+			
+			#olist li {
+				float: left;
+				width: 100px;
+				height: 100px;
+				
+				background: url(../img/o1.png);
+				
+			}
+
+
+
+
+.zhezhao{width: 905px;height: 738px;position: absolute;top: 71px;background: #fdf8f4;}
+
+
+
+
+
+
+
+
+
+
+

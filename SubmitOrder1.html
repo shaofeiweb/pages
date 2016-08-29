@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>填写核对订单</title>
+		<link rel="stylesheet" type="text/css" href="css/dingdancommon.css"/>
+		<link rel="stylesheet" type="text/css" href="css/SubmitOrder1.css"/>
+		<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+		<script src="js实现全国三级城市联动select选择/area.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/SubmitOrder1.js" type="text/javascript" charset="utf-8"></script>	
+		
+	</head>
+	<body>
+		<div class="top">
+			<div class="top_center poster">
+				<a href="index.html" class="left"><img src="img/car1.jpg" class="left"/></a>
+				<img src="img/submitorder1_1.jpg" class="right"/>
+			</div>
+		</div>
+		
+		
+		<div class="content1 poster">
+			<div class="content1_top">
+				<b>收货相关信息</b>
+			</div>
+			<div class="content1_bottom">
+				<b>收货人信息</b>
+				<table border="0" cellspacing="0" cellpadding="0" class="tab">
+					<tr>
+						<td width="85px" align="right">
+							<span>*</span>
+							收货人：
+						</td>
+						<td width="444px">
+							<input type="text" id="reciveperson" value="" />
+						</td>
+						
+					</tr>
+					<tr>
+						<td width="85px" align="right">
+							<span>*</span>
+							所在地区：
+						</td>
+						<td width="474px">
+							<select type="text" id="s_province" /></select>
+							<select type="text" id="s_city" /></select>
+							<select type="text" id="s_county"  /></select>
+							
+						</td>
+						
+					</tr>
+					
+					<tr>
+						<td width="85px" align="right">
+							<span>*</span>
+							详细地址：
+						</td>
+						<td width="444px">
+							<input type="text" id="address" />
+						</td>
+						
+					</tr>
+					<tr>
+						<td width="85px" align="right">
+							<span>*</span>
+							手机号码：
+						</td>
+						<td width="584px">
+							<select id="areaName" >
+								<option >大陆</option>
+								<option >美国</option>
+								<option >香港</option>
+							</select>
+							<input type="text" id="telephone" />
+							<strong> 或 固定电话 ：</strong>
+							<input type="text" id="phone" />
+							<strong style="color: red;"> 请填写手机号码或固定电话</strong>
+						</td>
+					</tr>
+				</table>
+				<a href="###" id="confirm_btn">确认收货</a>
+				<hr / style="margin-left: -33px;margin-top: 21px;">
+					<div class="myyouhui">
+						<b>我的优惠券</b>
+						<span >特殊商品不可使用优惠券</span>
+						
+					</div>
+					<div class="show hid">
+							<a href="###" style="background: red;">可用优惠券</a>
+							<a href="###">不可用优惠券</a>
+							<div class="show_con1">
+								<p>此单无可用优惠券，<a href="###" style="color: #c69c6d;">点击激活</a></p>
+							</div>
+							<div class="show_con2 hid">
+								<ul>
+									<li>优惠券编码</li>
+									<li>面值</li>
+									<li>所需消费金额</li>
+									<li>使用范围</li>
+								</ul>
+							</div>
+							
+					</div>
+			</div>
+			
+		</div>
+		<div class="content2 poster">
+			<div class="content1_top">
+				<b style="color: #666666;">商品清单</b>
+			</div>
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr class="tr1"><td width="406px">商品名称</td>
+					<td>发货站</td>
+					<td>会员价</td>
+					<td>数量</td>
+					<td>运费</td>
+					<td>小计</td>
+				</tr>
+				<tr class="tr1"><td width="406px">GUCCI/古驰罪爱淡香水</td>
+					<td>中国大陆</td>
+					<td>419元</td>
+					<td>1</td>
+					<td>0元</td>
+					<td style="color: red;"><b>419元</b></td>
+				</tr>
+				<tr class="tr1"><td width="406px">GUCCI/古驰罪爱淡香水</td>
+					<td>中国大陆</td>
+					<td>419元</td>
+					<td>1</td>
+					<td>0元</td>
+					<td style="color: red;"><b>419元</b></td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="content3 poster">
+			<p>1件商品，商品金额总计：419元</p>
+			<p>0件包装，包装金额总计：0元</p>
+			<p>应付总额：<b style="color: red;font-size: 30px;">419元</b></p>
+			<div class="last">
+				<a href="shopcar.html">返回修改购物车</a>
+				<a href="ordersuccess.html"><b>提交订单</b></a>
+			</div>
+		</div>
+		
+		<!--通用footer-->	
+	<p class="line"></p>
+	<div class="foot">
+		<ul class="ft_list left">
+			<li><div></div>
+				<span>正品保障</span>
+			</li>
+			<li></li>
+			<li><div></div>
+				<span>正品保障</span>
+			</li>
+			<li></li>
+			<li><div></div>
+				<span>正品保障</span>
+			</li>
+			<li></li>
+			<li><div></div>
+				<span>正品保障</span>
+			</li>
+			<li></li>
+			<li><div></div>
+				<span>正品保障</span>
+			</li>
+		</ul>
+		<ul class="ft_list2 left">
+			
+			<li><img src="img/car11.jpg"/>
+				<span class="span1">关注寺库微信</span>
+				<span class="span2">扫一扫有惊喜</span>
+			</li>
+			<li><img src="img/car11.jpg"/>
+				<span class="span1">关注寺库微信</span>
+				<span class="span2">扫一扫有惊喜</span>
+			</li>
+		</ul>
+		
+		<ul class="ft_list3 left">
+			<li><a href="###">加入寺库</a></li>
+			<li><a href="###">加入寺库</a></li>
+			<li><a href="###">加入寺库</a></li>
+			<li><a href="###">加入寺库</a></li>
+			<li><a href="###">加入寺库</a></li>
+			<li><a href="###">加入寺库</a></li>
+			<li><a href="###">加入寺库</a></li>
+			<li><a href="###">加入寺库</a></li>
+			<li><a href="###">加入寺库</a></li>
+			<li><a href="###">加入寺库</a></li>
+		</ul>
+	</div>
+	<div class="foot_last1">
+		<span>京ICP备09084709号-3 京公网安备110105004373号 </span>
+		<img src="img/car13.png"/>
+		<img src="img/car14.png"/>
+		<img src="img/car15.png"/>
+	</div>
+	
+	
+	
+	
+	
+	
+<!--通用footer结束-->		
+		
+	<!--返回顶部-->	
+	<div class="returnTop">
+		
+	</div>	
+	</body>
+</html>

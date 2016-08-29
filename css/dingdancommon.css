@@ -1,0 +1,47 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{margin:0;padding:0}
+ul,li,ol{list-style:none;}
+fieldset,img{border:0;}
+a{text-decoration:none;color: black;}
+/*a span{color:#f00;}*/
+body{width: 100%;background: #f6f6f6;font-size:12px;font-family:Arial, Helvetica, sans-serif,"微软雅黑"}
+img{border:none;display:block;}
+.left{float:left;display: inline;}
+.right{float:right;display: inline;}
+.poster{width:988px;margin:0 auto;}
+.hid{display: none;}
+.sw{display: block;}
+
+.top{width: 100%;height: 70px;background: #323232;margin-bottom: 42px;}
+#cheeck1{margin-left: 15px;}
+
+.line{width: 100%;height: 1px;background:white;}
+.foot{height: 155px;border-bottom: 1px solid #eaeaea;margin-left: 120px;}
+.ft_list {width: 611px;height: 155px;margin-top: 25px;}
+.ft_list li{float: left;height: 110px;color: #999999;}
+.ft_list li:nth-child(odd){width: 60px;text-align: center;}
+.ft_list li:nth-child(odd) div{width: 60px;height: 62px;background: url(../img/car8.png) left top no-repeat;overflow: hidden;margin-bottom: 5px;}
+.ft_list li:nth-child(odd) div:hover{background: url(../img/car8.png) left -88px  no-repeat;overflow: hidden;}
+.ft_list li:nth-child(even){width: 43px;background: url(../img/car9.jpg) no-repeat;}
+.ft_list2{width: 238px;height: 133px;border-left:1px solid #EDEDED ;border-right:1px solid #EDEDED ;padding: 22px 50px 0 50px;}
+
+.ft_list2 li{width: 107px;height: 104px;text-align: center;background: url(../img/car10.jpg);position: relative;float: left;}
+.ft_list2 li:first-child{margin-right: 20px;}
+.ft_list2 li img{display: inline-block;width: 86px;height: 86px;margin-top: 10px;}
+.span1{position: absolute;top: -11px;left: 13px;}
+.span2{position: absolute;bottom: -8px;left: 15px;}
+.ft_list3{width: 189px;height: 133px;padding: 22px 0 0 50px;}
+.ft_list3 li{float: left;margin-right: 35px;color: #f6f6f6;margin-bottom: 12px;}
+.ft_list3 li:hover{color: black;}
+.foot_last1{width: 100%;height: 35px;border-top: 1px solid white;background: #eaeaea;line-height: 35px;clear: both;}
+.foot_last1 span{padding-left: 475px;color: #999999;float: left;}
+.foot_last1 img{float: left;margin-left: 5px;margin-top: 3px;cursor: pointer;}
+
+
+
+
+
+
+
+
+
+

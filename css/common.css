@@ -1,0 +1,54 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{margin:0;padding:0}
+ul,li,ol{list-style:none;}
+fieldset,img{border:0;}
+a{text-decoration:none;color: black;}
+/*a span{color:#f00;}*/
+body{width: 100%;font-size:12px;font-family:Arial, Helvetica, sans-serif,"微软雅黑"}
+img{border:none;display:block;}
+.left{float:left;display: inline;}
+.right{float:right;display: inline;}
+.poster{width:1200px;margin:0 auto;}
+
+.navTop{height: 163px;width: 1200px;}
+.navTop_l{height: 163px;width: 180px;}
+.navTop_l_t{height: 129px;overflow: hidden;}
+.navTop_l_b{background: #382f6b;line-height: 34px;color: white;text-align: center;position: relative;}
+.navTop_r{width: 1020px;}
+.navTop_r_t{height: 32px;padding-top: 10px;}
+.navTop_r_t ul{height: 14px;color: #999999;margin-left: 391px;}
+.navTop_r_t ul li{float: left;margin-right: 20px;font-size: 12px;}
+.navTop_r_t ul li a{color: #999999}
+.navTop_r_t ul li a:hover{color: black}
+.navTop_r_t ul :last-child{list-style-position: inside;list-style-image: url(../img/未标题-1.jpg);}
+.navTop_r_b_l{width: 913px;height: 121px;}
+.navTop_r_b_search{width: 485px;height: 35px;margin-left: 69px;}
+.navTop_r_b_search input{height:30px;width: 402px;border: 2px solid #463b7f;padding-left: 10px;}
+.navTop_r_b_search span{display: inline-block;background: #52478e;width: 69px;height: 34px;text-align: center;line-height: 33px;color: white;cursor: pointer;}
+.discount{margin-left: 69px;margin-top: 10px;height: 13px;}
+.discount li{float: left;margin-right: 20px;}
+.discount li a{font-size: 12px;color: #999999;}
+.discount li a:hover{color: red;text-decoration: underline;}
+.menu{clear: both;margin-left: 69px;margin-top: 28px;}
+.menu li{float: left;margin-right: 40px;}
+.menu li a{font-size: 13px;color: black;}
+.navTop_r_b_r fieldset{border: 1px solid #999999;width: 96px;height: 109px;font-size: 12px;text-align: center;color: #999999;}
+.navTop_r_b_r fieldset img{margin-left: 10px;margin-top: 5px;}
+#submenu{width: 180px;position: absolute;top: 34px;z-index: 2;border-bottom: 1px solid #382F6B;display: none;}
+#submenu li{width: 180px;height: 64px;position: relative;border-left:1px solid #382F6B ;}
+#submenu li:last-child{height: 60px;}
+#submenu li p{font-size: 16px;height: 16px;margin-bottom: 10px;color: white;font-weight: 700;}
+#submenu li span{font-size: 11px;padding: 0 5px;color: white;cursor: pointer;}
+#submenu div{width: 383px;height: 420px;border: 1px solid #52478E;border-left: none;background: white;}
+
+
+
+
+
+
+
+
+
+
+
+
+

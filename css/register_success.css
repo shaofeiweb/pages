@@ -1,0 +1,30 @@
+.poster{width: 1096px;margin: 0 auto;}
+.p1{height: 26px;line-height: 26px;color: red;margin-top: 117px;font-size: 26px;text-align: center;font-weight: 600;}
+.p2{height: 16px;line-height: 16px;color: black;margin-top: 21px;font-size: 16px;text-align: center;}
+
+
+.content1{height: 200px;margin-top: 62px;}
+.tab1{width:544px ;height: 199px;float: left;display: block;}
+.tab1 tr{margin-top: 24px;height: 32px;}
+.tab1 tr td{display: inline}
+.tab1 select{width: 122px;height: 28px;margin:0 3px;}
+#areaName select{margin-right: 13px;}
+
+.hr{height: 100%;width: 0px;border-left:1px dashed #8A8A89 ;}
+.ullist{margin-left: 10px;margin-top: -10px;width: 540px;}
+.ullist li{margin-top: 30px ;float: left;width: 78px;height: 30px;background: #ededed;color: black;text-align: center;line-height:30px ;margin-left: 30px;}
+.ullist li a{display: block;width: 78px;height: 30px}
+.ullist li a:hover{background: pink;}
+
+.ft_list{width: 590px;}
+
+.foot{margin-top: 80px;}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+.re{height: 967px;width: 100%;background: #ededed;}
+.re_content{height: 927px;padding-top: 40px;}
+.my{width: 131px;border-top:4px solid #7f69b2 ;background: white;height: 834px;padding-top: 26px;padding-left: 24px;padding-right: 25px;margin-right: 50px;}
+.myTop{height: 18px;font-size: 18px;margin: 0 0 13px 15px;font-weight: 500;}
+.buy{font-size: 13px;padding: 12px 0 0 0;font-weight: 500;}
+.buylist li{color: #666666;list-style: disc inside ;padding: 9px 0;}
+.buylist .active{color: red;font-weight: 600}
+
+.re_content .order1{height: 188px;width: 970px;}
+.money_ct3_top a{display: inline-block;width: 140px;height: 30px;background: black;text-align: center;line-height: 30px;color: white;}
+.money_ct3 a:hover{background: #7f69b2}
+#vv{background: #7f69b2}
+.money_ct3_top{background: #ededed;}
+.order1_b{height: 107px;background: white;padding: 42px 0 0 42px;width: 900px;}
+.order1_b li{margin-right: 88px;float: left;font-size: 15px;font-family: "微软雅黑";margin-bottom: 21px;border-bottom: 3px solid white;}
+.order1_b li span{color: red;margin-left: 5px;}
+.order1_b li:hover{border-bottom: 3px solid red;}
+#quick{clear: both;height: 18px;display: block;padding: 5px 5px ;border: 1px solid #EDEDED;width: 232px;float: left;}
+#qkbt{height: 30px;width: 80px;background: red;color: white;text-align: center;line-height: 30px;border: 0;float: left;}
+.s:hover{color: red;}
+.nn{margin-top: 20px;height: 40px;background: #7f69b3;color: white;display: block;}
+.nn td{text-align: center;line-height: 40px;height: 40px;}
+.last{height: 58px;text-align: center;;line-height: 58px;background: white;font-size: 14px;}
+.last a{font-size: 12px;}
+
+
+
+
+
+
+.goodaside div{width: 36px;height: 36px;}
+.goodaside{height: 108px;width:36px ;position: fixed;right: 75px;top: 226px;}
+.goodaside1{background: url(../img/goodkefu.gif) left top;}
+.goodaside1:hover{background: url(../img/goodkefu.gif) left bottom;}
+.goodaside2{background: url(../img/detail_icon6.png) -195px -124px no-repeat;display: none;}
+.goodaside2:hover{background: url(../img/detail_icon6.png) -159px -124px no-repeat #463a7e;}
+.goodaside3{background: url(../img/detail_icon6.png) -195px -157px no-repeat;display: none}
+.goodaside3:hover{background: url(../img/detail_icon6.png) -159px -157px no-repeat #463a7e;}
+
+
+
+
+
+
+
+
+
+
+
+
