@@ -54,7 +54,7 @@ img{border:none;display:block;}
 
 
 
-
+.pin_container3{margin-top:53px }
 
 
 
@@ -65,7 +65,7 @@ img{border:none;display:block;}
 .guild_u1_last{width: 302px;margin-right: 0;}
 .guild_u1_last p{margin-top: 15px;}
 .guild_u1_last a{margin-right: 30px;}
-.foot{height: 39px;background:url(../img/foot1.jpg);overflow: hidden;}
+.foot{height: 39px;background:url(../img/foot1.jpg) no-repeat;overflow: hidden;width: 1200px;margin: 0 auto}
 .foot_aboat{height: 160px;color: #666666;position: relative;background: #f5f5f5;padding-top: 27px;}
 .foot_aboat p{margin-bottom: 17px;}
 .foot_aboat p span{margin-right: 15px;}

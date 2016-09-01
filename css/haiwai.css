@@ -25,9 +25,9 @@ img{border:none;display:block;}
 .nav img:last-child{margin-top: -52px;}
 
 .solid{position: relative;}
-.solid .solid_content{width: 759px;height: 297px;border-top:4px solid #463b7f ;position: absolute;top: 0px;z-index: 10000;display: block;left: 234px;text-align: center;background: pink;}
+.solid .solid_content{width: 759px;height: 297px;border-top:4px solid #463b7f ;position: absolute;top: 0px;z-index: 10000;display: block;left: 437px;text-align: center;background: pink;}
 .solid div{display: none;}
-#sanjiao{position: absolute;top: -10px;left: 381px;display: none;}
+#sanjiao{position: absolute;top: -10px;left: 624px;display: none;}
 .haiwai_search{height: 22px;padding: 20px 0 15px 0;background: #haiwai_search;}
 .haiwai_search input{width: 164px;height: 22px;border: none;}
 

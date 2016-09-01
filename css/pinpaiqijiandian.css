@@ -18,21 +18,21 @@ body{height: 4000px;}
 .pin_container3_r li .c3{position: absolute;width: 1px;height: 1px;background: black;bottom: -1px;right: -1px;}
 .pin_container3_r li .c4{position: absolute;width: 1px;height: 1px;background: black;top: -1px;right: -1px;}
 .pin_container3_r li div{display: none;}
-.pin_container4{height: 430px;border-top: 4px solid black;z-index: 2;}
+.pin_container4{height: 430px;border-top: 4px solid black;z-index: 2;margin: 0 auto;margin-top: 53px;}
 .pin_container5{height: 430px;}
 .pin_container5_l{width: 100px;height: 343px;padding-top: 42px;float: left;}
 .pin_container5_l2{border-top: 3px solid black;width: 100px;height: 343px;color: black;}
 .pin_container5_l2 ul li{background: url(../img/pin12.jpg);width: 100px;height: 31px;color: #888888;border-bottom: 1px solid white;border-top:1px solid white ;}
 .pin_container5_l2 ul li span{margin-left: 32px;line-height: 40px;margin-right: 5px;}
 .pin_container5_l2 ul li b{display: none;}
-.pin_container5_r{width: 1000px;height: 170px;margin-left: 100px;float: left;}
+.pin_container5_r{width: 1000px;height: 170px;margin-left: 100px;float: left;position: relative;}
 .pin_container5_r_b{height: 125px;width: 998px;border: 1px solid #888888;}
 .pin_container5_r_b ul{margin-top: 17px;margin-left: 47px;}
 .pin_container5_r_b ul li{width: 94px;height: 94px;margin-right: 40px;float: left;}
 .pin_container5_r_b ul li :hover{cursor: pointer}
 .pin_container5_r_b ul li img{width: 90px;height: 90px;margin-left: 2px;margin-top: 2px;}
-#aaa{margin-top: 3000px;}
-
+#aaa{margin-top: 2600px;}
+#ll{position: absolute;top: 195px;left: 0px}
 
 
 

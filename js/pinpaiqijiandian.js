@@ -71,17 +71,17 @@ $(document).ready(function(){
 	})
 	var x=$('.pin_container4').offset().top
 	
-	$(window).scroll(function(){
+	// $(window).scroll(function(){
 		
-		if($(window).scrollTop()>=1373){
-		$('.pin_container4').css({'position':'fixed','top':0,'left':'110px'})
-	}else{$('.pin_container4').css({'position':'absolute','top':"1373px",'left':'110px'})}
+	// 	if($(window).scrollTop()>=1373){
+	// 	$('.pin_container4').css({'position':'fixed','top':0,'left':'0%'})
+	// }else{$('.pin_container4').css({'position':'absolute','top':"1373px",'left':'0%'})}
 	
-	})
+	// })
 	
 	
 	
-	$('#ll').css({'position':'absolute','top':'1572px','left':310})
+	// $('#ll').css({'position':'absolute','top':'1572px','left':'20%'})
 	
 	
 	
