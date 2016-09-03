@@ -6,9 +6,11 @@
 		<link rel="stylesheet" type="text/css" href="css/common.css"/>
 		<link rel="stylesheet" type="text/css" href="css/shouye.css"/>
 		<link rel="stylesheet" type="text/css" href="css/commonheader.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css"/>
 		<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
 		<!--<script type="text/javascript" src="js/common.js"></script>	-->
 		<script type="text/javascript" src="js/shouye.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
 	<!--	<script src="js/lazy.js" type="text/javascript" charset="utf-8"></script>-->
 		<style type="text/css">
 			.ppp{width: 90px;background: #EDEDED;margin-left: -20px;display: none;}
@@ -18,15 +20,18 @@
 			#list{position: absolute;top: 34px;width: 100%;z-index: 100;}
 			#list li{width: 485px;height: 30px;background: white;line-height: 30px;}
 			#list li a{display: block;width: 100%;height: 100%;}
-			
+			.click_me{font-size: 20px;position: absolute;top: 6.1%;left: 64%;color: red;background: pink;padding: 5px;width: 80px;height: 80px;text-align: center;line-height: 40px}
 			
 			
 			
 		</style>
 	</head>
 	<body>
-<!--通用部分开始-->		
+<!--通用部分开始-->	
+		
+			
 		<div class="navTop poster">
+		<div class="click_me">红色文字可点击</div>
 			<div class="left navTop_l">
 				<div class="navTop_l_t">
 					<img src="img/navTop_t.jpg"/>
@@ -88,11 +93,11 @@
 				<div class="navTop_r_t" id="OnavTop_r_t">
 					<ul>
 						<li>欢迎光临寺库</li>
-						<li><a href="logoin.html">请登入</a></li>
-						<li><a href="register .html">注册</a></li>
+						<li><a href="logoin.html" style='color: red'>请登入</a></li>
+						<li><a href="register .html" style='color: red'>注册</a></li>
 						<li>|</li>
-						<li><a href="myorder.html">我的订单</a></li>
-						<li id="shang"><a href="restMoney.html">我的寺库</a><img src="img/xia.png" style="display: inline;margin-bottom: 3px;" style="position: relative;"/>
+						<li><a href="myorder.html" style='color: red'>我的订单</a></li>
+						<li id="shang"><a href="restMoney.html" style='color: red'>我的寺库</a><img src="img/xia.png" style="display: inline;margin-bottom: 3px;" style="position: relative;"/>
 							<div class="ppp" style="position: absolute;">
 								<p><a href="###">客户服务</a></p>
 								<p><a href="###">客户服务</a></p>
@@ -101,16 +106,16 @@
 							</div>
 						</li>
 						<li><a href="###">客户服务</a></li>
-						<li><a href="###">媒体聚焦</a></li>
+						<li><a href="###" >媒体聚焦</a></li>
 						<li>|</li>
-						<li><a href="shopcar.html">购物车(0)</a></li>
+						<li><a href="shopcar.html" style='color: red'>购物车(0)</a></li>
 					</ul>
 				</div>
 <!--11111111111111111111111111111111-->				
 				<div class="navTop_r_b">
 					<div class="navTop_r_b_l left">
 						<div class="navTop_r_b_search" style="position: relative;">
-							<input type="text"  placeholder="砖石" class="left" id="search" style="outline: none;"/><span class="left">搜索</span>
+							<input type="text"  placeholder="砖石" class="left" id="search" style="outline: none;"/><span class="left" style='color: red'>搜索</span>
 							<ul id="list" >
 										
 							</ul>
@@ -132,12 +137,12 @@
 							<li><a href="###">只能代步</a></li>
 						</ul>
 						<ul class="menu">
-							<li><a href="kushishang.html">首页</a></li>
-							<li style="position: relative;"><a href="haiwai.html">免税直邮</a><s style="position: absolute;top: -10px;right: -15px;"><img src="http://pic1.secoo.com/home/hot.gif"></s></li>
-							<li><a href="goods.html">闪购SALE</a></li>
-							<li><a href="sellandbuy.html">我卖我拍</a></li>
-							<li><a href="pinpaiqijiandian.html">品牌旗舰店</a></li>
-							<li><a href="###">精品中国</a></li>
+							<li><a href="kushishang.html" style='color: red'>玩转</a></li>
+							<li style="position: relative;"><a href="haiwai.html" style='color: red'>免税直邮</a><s style="position: absolute;top: -10px;right: -15px;"><img src="http://pic1.secoo.com/home/hot.gif"></s></li>
+							<li><a href="goods.html" style='color: red'>闪购SALE</a></li>
+							<li><a href="sellandbuy.html" style='color: red'>我卖我拍</a></li>
+							<li><a href="pinpaiqijiandian.html" style='color: red'>品牌旗舰店</a></li>
+							<li><a href="###" >精品中国</a></li>
 							<li><a href="###">男士</a></li>
 							<li><a href="###">女士</a></li>
 							<li><a href="###">裤时尚</a></li>
@@ -1150,6 +1155,18 @@
 			oLi[index].style.background='red';
 			
 		}
+
+		var click_me_flag=1
 	
+		var nnnnn=setInterval(function(){
+			if(click_me_flag<10){
+				
+				
+				  $( ".click_me" ).toggle( "explode" );
+					click_me_flag++
+			}else{
+				clearInterval(nnnnn)
+			}
+		},1000)
 	</script>
 </html>

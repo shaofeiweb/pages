@@ -113,7 +113,7 @@ $(document).ready(function(){
 			})
 
 
-
+			
 			$('.goods_main_r ul li').slice(0,4).mouseenter(function(){
 				var x=$(this).index()
 				$(this).addClass('bbbb').siblings().removeClass('bbbb')
